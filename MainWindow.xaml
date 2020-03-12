@@ -1,0 +1,14 @@
+﻿<Window x:Class="ModInjector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModInjector"
+        mc:Ignorable="d"
+        Title="AHpx's Mod Injector" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox Margin="5,5,5,74" x:Name="ListBox_Modlist"/>
+        <CheckBox Content="Start Listening" Margin="677,350,10,39" Click="CheckBox_Click"/>
+        <Button Content="Kill minecraft" Margin="545,350,127,44" Click="Button_Click"/>
+    </Grid>
+</Window>
